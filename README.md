@@ -15,5 +15,9 @@ Next, set up the [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/inst
 Test with:
 
 ``` {bash}
-aws s3 ls --endpoint https://localhost:4566
+alias awslocal="aws --endpoint-url http://localhost:4566"
+awslocal s3 ls
+awslocal s3 mb s3://mybucket
+awslocal s3 cp README.md s3://mybucket
+awslocal s3 ls s3://mybucket
 ```
