@@ -21,3 +21,9 @@ awslocal s3 mb s3://mybucket
 awslocal s3 cp README.md s3://mybucket
 awslocal s3 ls s3://mybucket
 ```
+
+## Other References
+
+[1. Use with github actions](https://github.com/Raita876/go-localstack-github-actions-sample)
+[2. Stackoverflow with actions](https://stackoverflow.com/a/64128067)
+
